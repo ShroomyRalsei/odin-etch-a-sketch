@@ -27,7 +27,6 @@ body, #horizontal-square {
 }
 
 #horizontal-square {
-    background-color:white;
     flex:1;
     border:1px solid black;
 }
