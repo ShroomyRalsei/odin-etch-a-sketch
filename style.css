@@ -3,8 +3,6 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -18,7 +16,14 @@ body {
     height:400px;
     border:5px solid black;
     margin:1rem auto;
+}
+
+body, #grid, #horizontal-square {
     display:flex;
+}
+
+body, #horizontal-square {
+    flex-direction:column;
 }
 
 #horizontal-square {
