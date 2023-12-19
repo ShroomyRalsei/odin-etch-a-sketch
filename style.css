@@ -31,7 +31,7 @@ body, #horizontal-square {
     flex-direction:column;
 }
 
-#horizontal-square {
+#horizontal-square, #vertical-square {
     flex:1;
 }
 
