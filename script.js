@@ -11,6 +11,10 @@ gridCreator.addEventListener('click', () => {
 
         createGrid(squareAmount);
     }
+    else {
+        alert('Please choose a valid number, default grid chosen');
+        createGrid(16);
+    }
 })
 
 function createGrid(squares) {
