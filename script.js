@@ -2,6 +2,17 @@ const gridContainer = document.querySelector('#grid-container');
 
 const gridCreator = document.querySelector('#grid-creator');
 
+gridCreator.addEventListener('click', () => {
+    gridContainer.innerHTML = "";
+
+    const squareAmount = prompt('How many squares on each side should the new grid have?');
+
+    if(squareAmount == Number(squareAmount)) {
+
+        createGrid(squareAmount);
+    }
+})
+
 function createGrid(squares) {
     const grid = document.createElement('div');
 
@@ -25,3 +36,5 @@ function createGrid(squares) {
         }
     }
 }
+
+createGrid(16);
