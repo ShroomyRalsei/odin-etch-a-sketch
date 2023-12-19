@@ -6,6 +6,10 @@ body {
     align-items: center;
 }
 
+#grid, #horizontal-square {
+    gap:1px;
+}
+
 #grid-creator {
     width: 100px;
     padding: 20px 0;
