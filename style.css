@@ -7,3 +7,8 @@ body {
     flex-direction:column;
     align-items:center;
 }
+
+#grid-creator {
+    width:100px;
+    padding: 20px 0;
+}
