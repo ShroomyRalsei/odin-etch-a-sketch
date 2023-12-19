@@ -7,7 +7,7 @@ gridCreator.addEventListener('click', () => {
 
     const squareAmount = prompt('How many squares on each side should the new grid have?');
 
-    if(squareAmount == Number(squareAmount)) {
+    if(squareAmount == Number(squareAmount) && squareAmount > 0) {
 
         createGrid(squareAmount);
     }
