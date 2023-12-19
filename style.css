@@ -28,5 +28,9 @@ body, #horizontal-square {
 
 #horizontal-square {
     flex:1;
-    border:1px solid black;
+}
+
+#vertical-square {
+    flex-basis:100px;
+    background-color: white;
 }
