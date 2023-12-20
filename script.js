@@ -39,6 +39,10 @@ function createGrid(squares) {
             verticalSquare.setAttribute('id', 'vertical-square')
 
             horizontalSquare.appendChild(verticalSquare);
+
+            verticalSquare.addEventListener('mouseover', () => {
+                verticalSquare.setAttribute('style', 'background-color:black');
+            })
         }
     }
 }
